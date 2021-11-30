@@ -8,3 +8,7 @@ for szam in range (1,11,1):
 
 #3. Írj programot, ami csak pozitív számot hajlandó beolvasni.
 
+alap=int(input("Add meg a hatvány alapot: "))
+kitevo=int(input("Add meg a hatvány kitevőt: "))
+hatvanyertek=alap**kitevo
+print(hatvanyertek)
