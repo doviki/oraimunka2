@@ -6,9 +6,19 @@ for szam in range (1,11,1):
 
 #2. írj programot, mely beolvassa a hatvány alapját és a kitevőt, és kiírja a hatványértéket!
 
-#3. Írj programot, ami csak pozitív számot hajlandó beolvasni.
-
 alap=int(input("Add meg a hatvány alapot: "))
 kitevo=int(input("Add meg a hatvány kitevőt: "))
 hatvanyertek=alap**kitevo
 print(hatvanyertek)
+
+#3. Írj programot, ami csak pozitív számot hajlandó beolvasni.
+
+a=int(input("Adj meg egy számot: "))
+if a>0:
+    print(a)
+else:
+    print("A szám negatív")
+    
+
+
+
